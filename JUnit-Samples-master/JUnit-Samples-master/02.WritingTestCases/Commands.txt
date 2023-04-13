@@ -1,0 +1,10 @@
+del *.class
+javac JUnit38DemoArrayList.java
+
+java junit.textui.TestRunner JUnit38DemoArrayList
+
+#Windows:
+# java -classpath D:\myprogram org.mypackage.HelloWorld
+#Linux:
+# java -cp /home/user/myprogram org.mypackage.HelloWorld 
+

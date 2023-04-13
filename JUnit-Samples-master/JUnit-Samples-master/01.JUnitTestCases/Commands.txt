@@ -1,0 +1,16 @@
+del *.class
+javac *.java
+
+set classpath=%classpath%;G:\training\assignment\assignment1m2\JUnit-Samples-master\JUnit-Samples-master\hamcrest-all-1.3.jar;G:\training\assignment\assignment1m2\JUnit-Samples-master\JUnit-Samples-master\junit-4.13.1.jar;
+
+java org.junit.runner.JUnitCore AddSubTest
+java org.junit.runner.JUnitCore DivTest
+
+Windows:
+ java -classpath D:\myprogram org.mypackage.HelloWorld
+
+Linux:
+ java -cp /home/user/myprogram org.mypackage.HelloWorld 
+
+
+java RunTestStandalone
